@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "leann"
-version = "0.3.8"
+version = "0.3.9"
 description = "LEANN - The smallest vector index in the world. RAG Everything with LEANN!"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -26,15 +26,15 @@ classifiers = [
 
 # Default installation: core + hnsw + diskann + ivf (incremental updates)
 dependencies = [
-    "leann-core>=0.1.0",
-    "leann-backend-hnsw>=0.1.0",
-    "leann-backend-diskann>=0.1.0",
-    "leann-backend-ivf>=0.3.6",
+    "leann-core>=0.3.9",
+    "leann-backend-hnsw>=0.3.9",
+    "leann-backend-diskann>=0.3.9",
+    "leann-backend-ivf>=0.3.9",
 ]
 
 [project.optional-dependencies]
 cpu = [
-    "leann-core[cpu]>=0.1.0",
+    "leann-core[cpu]>=0.3.9",
 ]
 
 [project.urls]

@@ -17,7 +17,7 @@ CPU-optimized image (forces PyTorch CPU index):
 ```bash
 docker build \
   --build-arg PYTHON_VERSION=3.12 \
-  --build-arg LEANN_VERSION=0.3.6 \
+  --build-arg LEANN_VERSION=0.3.9 \
   -f docker/Dockerfile.cpu docker -t leann:cpu
 ```
 
